@@ -125,3 +125,56 @@ export default defineNuxtRouteMiddleware((to, from) => {
     
     
 </script>
+
+
+add api npx nuxi add api helloWorld
+defineEventHandler()
+/* api empowered by https://nitro.unjs.io/ */
+https://nuxt.com/docs/guide/directory-structure/server
+https://nitro.unjs.io/
+https://github.com/unjs/h3
+https://www.jsdocs.io/package/h3#package-index-functions
+
+REST CLIENT VS code extension like postman
+
+request.http
+GET url filename.get.ts
+
+###
+POST url filename.post.ts
+
+https://github.com/Huachao/vscode-restclient
+
+NUXT state management useState
+https://nuxt.com/docs/getting-started/state-management/
+const isLoggedIn = ref(false) - this is in component without access for othher components
+
+change ref to useState("isLoggedIn", ()=> false)
+then invoke: const isLoggedIn = useState("isLoggedIn", ()=> false) 
+function login() {
+    ...
+    useRouter().push('/')
+}
+
+<NuxtLink v-if="true" to> logout</NuxtLink>
+<NuxtLink v-else to> logint</NuxtLink>
+there is a special dir composables for NUXT
+
+USE PINIA is an official global state library fir vue js 3
+nuxt module for pinia
+npm install @pinia/nuxt
+
+Learn about getters and setters please!
+
+Deploying an app https://nuxt.com/docs/getting-started/deployment
+
+Hybrid rendering
+https://nuxt.com/docs/guide/concepts/rendering#hybrid-rendering
+npx nuxi upgrade
+
+routeRules: {
+    "/spa": { ssr: false},
+    "/static": {static: true},
+    "/swr": { swr: true},
+}
+masteringnuxt.com Mastering Nuxt
