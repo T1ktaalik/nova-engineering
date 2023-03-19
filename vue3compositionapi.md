@@ -1,0 +1,1 @@
+The future of Vue is in a composition API
